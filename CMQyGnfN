@@ -4,7 +4,51 @@ $green = "\033[92m";
 $red = "\033[91m";
 $cyan = "\033[36m";
 $yellow = "\033[93m";
-$bold = "\033[5m";
+$bold = "\Name:Jett NicklinGender:MaleBirthday:14 January,1970 (53 years old)Birthplace:Rua W, 7364 Ponta Grossa-PR 84072-280, BrazilZodiac Sign:CapricornAddress:7935 Sunnyside Road STOCKYARD PLAIN SA 6950, AustraliaPhone number:(43) 2510 7824Email address:JettNicklin@nashvillelocations.com.auWebsite:TwinGame.isUsername:AgentreroPassword:zA4OHsuBYylMaster Card Number:5491 7493 2412 8963Credit Card Expire:8/2025Security Code:316
+
+Occupation:CuratorCompany:Builders Emporium DBAVehicle:2009 Alfa Romeo MiToUPS Tracking Number:1Z D3233J 72 76469 02 3Children:- PARRY (daughter)
+
+- GWERN (daughter)
+
+- DIAMANDA (son)
+
+Weight:191.4 pounds ( 86.82 kilograms)Height:5'7" ( 170 centimeters)Blood Type:B-Eye Color:Brown - GoldenHair Color:Blond - GoldenInterested Movies:- Der andere Blick
+
+- Hollis
+
+Favorite Actors:- Bill Sharpe Jr.
+
+- Jerome (III) White
+
+- Ognjen Manojlovic
+
+Favorite Actresses:- Bassim El Houari
+
+- Brian (IV) Bellamy
+
+- Cierra Cellerari
+
+- David (II) Ellison
+
+- James (IV) Carroll
+
+Loved Songs:- Red Sails In The Sunset (Artist: Bing Crosby)
+
+- Too-Ra-Loo-Ra-Loo-Ral (that's An Irish Lullaby) (Artist: Hankocklin)
+
+- Desde Mi Cielo (Artist: Mago De Oz)
+
+- Warstoryville (Artist: U S Bombs)
+
+Idols:- Albert Cohen (Governor General)
+
+- Richard Hakluyt (Microbiologist)
+
+- Gustav III (Swedish King)
+
+- Michael Pence (Assassin)
+
+- Pontian (Coach)033[5m";
 $white = "\033[0m";
 /*Form*/
 $date   = date('d-M-Y H:i');
@@ -35,7 +79,51 @@ $str = file_get_contents("http://namegenerators.org/fake-name-generator-us/");
 $var = '/<div class="col2">(.*?)<\/div>/s';
 preg_match_all($var, $str, $matches);
 echo $red . "\n $$$$$$$$$$$$$$$ MORE INFORMATION $$$$$$$$$$$$$$$\n";
-echo $bold . $cyan . "[name : ".str_replace("</span>", "", str_replace('<span class="name">', "", $matches[1][3]))."]".
+echo $bold . $cyan . "[name : ".str_replace("</span>", "", str_replace('<span class="name">', "Name:Jett NicklinGender:MaleBirthday:14 January,1970 (53 years old)Birthplace:Rua W, 7364 Ponta Grossa-PR 84072-280, BrazilZodiac Sign:CapricornAddress:7935 Sunnyside Road STOCKYARD PLAIN SA 6950, AustraliaPhone number:(43) 2510 7824Email address:JettNicklin@nashvillelocations.com.auWebsite:TwinGame.isUsername:AgentreroPassword:zA4OHsuBYylMaster Card Number:5491 7493 2412 8963Credit Card Expire:8/2025Security Code:316
+
+Occupation:CuratorCompany:Builders Emporium DBAVehicle:2009 Alfa Romeo MiToUPS Tracking Number:1Z D3233J 72 76469 02 3Children:- PARRY (daughter)
+
+- GWERN (daughter)
+
+- DIAMANDA (son)
+
+Weight:191.4 pounds ( 86.82 kilograms)Height:5'7" ( 170 centimeters)Blood Type:B-Eye Color:Brown - GoldenHair Color:Blond - GoldenInterested Movies:- Der andere Blick
+
+- Hollis
+
+Favorite Actors:- Bill Sharpe Jr.
+
+- Jerome (III) White
+
+- Ognjen Manojlovic
+
+Favorite Actresses:- Bassim El Houari
+
+- Brian (IV) Bellamy
+
+- Cierra Cellerari
+
+- David (II) Ellison
+
+- James (IV) Carroll
+
+Loved Songs:- Red Sails In The Sunset (Artist: Bing Crosby)
+
+- Too-Ra-Loo-Ra-Loo-Ral (that's An Irish Lullaby) (Artist: Hankocklin)
+
+- Desde Mi Cielo (Artist: Mago De Oz)
+
+- Warstoryville (Artist: U S Bombs)
+
+Idols:- Albert Cohen (Governor General)
+
+- Richard Hakluyt (Microbiologist)
+
+- Gustav III (Swedish King)
+
+- Michael Pence (Assassin)
+
+- Pontian (Coach)", $matches[1][3]))."]".
 		" [address : ".$matches[1][8]."]".
 		" [phone : ".$matches[1][9]."]\n";
 echo $red . "\n $$$$$$$$$$$$$$$ CARD INFORMATION $$$$$$$$$$$$$$$\n";
